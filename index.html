@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Muchumari Veera Vasanth Reddy — Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#">MV Vasanth Reddy</a>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="menu">☰</button>
+    </div>
+  </header>
+
+  <section id="home" class="hero wrap">
+    <h1 class="hero-title">Hi — I’m <span class="name">Muchumari Veera Vasanth Reddy</span></h1>
+    <p class="hero-sub muted">
+      📍 Bangalore, IN &nbsp; | &nbsp;
+      <a href="mailto:veeravasanthreddy2003@gmail.com" class="hero-link">veeravasanthreddy2003@gmail.com</a>
+    </p>
+    <p class="hero-sub">DevOps Enthusiast | AWS | CI/CD | Terraform | Docker | Kubernetes | RHEL</p>
+
+    <div class="hero-actions">
+      <a class="btn primary" href="https://github.com/vasanth-mvvr" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i>&nbsp; GitHub
+      </a>
+
+      <a class="btn ghost" href="C:\DevOps\repos\portfolio\assests\Muchumari_Veera_Vasanth_Reddy_DevOps_Resume.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="fas fa-file-pdf"></i>&nbsp; Resume
+      </a>
+
+      <a class="btn ghost" href="https://www.linkedin.com/in/mv-vasanth-reddy" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i>&nbsp; LinkedIn
+      </a>
+    </div>
+  </section>
+
+  <section id="about" class="about wrap">
+    <h2>Summary</h2>
+    <p>
+      DevOps enthusiast with 1+ years of hands-on project experience, achieving significant improvements in
+      deployment efficiency and environment consistency using Docker, Kubernetes, Terraform, and Jenkins.
+      Optimized cloud infrastructure on AWS, reducing manual errors and streamlining application deployment
+      workflows.
+    </p>
+  </section>
+
+  <section id="experience" class="experience wrap">
+    <h2>Experience</h2>
+    <div class="card">
+      <h3>DevOps Intern — Elevate Labs</h3>
+      <span class="muted">Oct 2025 – Present</span>
+      <p>
+        Working on automating infrastructure provisioning and deployment pipelines using Terraform and Jenkins.
+      </p>
+    </div>
+  </section>
+
+  <section id="education" class="education wrap">
+    <h2>Education</h2>
+
+    <div class="edu-card card">
+      <h3>APS College of Engineering</h3>
+      <p class="muted">B.E. in Computer Science and Engineering</p>
+      <p>Graduating 2025 • GPA: 8.99</p>
+    </div>
+
+    <div class="edu-card card">
+      <h3>Sri Chaitanya PU College</h3>
+      <p class="muted">Pre-University (12th Grade)</p>
+      <p>2021 • Percentage: 80%</p>
+    </div>
+
+    <div class="edu-card card">
+      <h3>Sri Chaitanya Techno School</h3>
+      <p class="muted">SSLC (10th Grade)</p>
+      <p>2019</p>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="wrap">
+      <h2>Projects</h2>
+
+      <div class="timeline-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
+             id="timelineAvatar"
+             alt="Profile Icon" />
+
+        <div class="timeline">
+
+          <div class="timeline-item left">
+            <div class="card">
+              <h3>Roboshop Project</h3>
+              <p>
+                Automated infrastructure provisioning using Terraform and Jenkins, reducing manual errors by 75%.
+                Deployed Dockerized microservices and implemented CI/CD pipelines with Jenkins shared libraries.
+                Integrated AWS Auto Scaling for cost-efficient infrastructure management.
+              </p>
+              <p><strong>Tech Stack:</strong> Terraform, Jenkins, Docker, Kubernetes, Helm, AWS, Shell Scripting</p>
+            </div>
+          </div>
+
+          <div class="timeline-item right">
+            <div class="card">
+              <h3>Expense Project</h3>
+              <p>
+                Automated VM provisioning and application deployments using Shell and Ansible scripts.
+                Implemented YAML-based configurations, reducing environment mismatch by 35%.
+              </p>
+              <p><strong>Tech Stack:</strong> Ansible, Shell Scripting, YAML, Linux</p>
+            </div>
+          </div>
+
+          <div class="timeline-item left">
+            <div class="card">
+              <h3>Fire & Smoke Detection System</h3>
+              <p>
+                Developed an IoT-based safety system using sensors and Raspberry Pi with automated alerts through Twilio.
+                Integrated dashboard visualization and AI-based recommendations for anomaly detection.
+              </p>
+              <p><strong>Tech Stack:</strong> Python, Raspberry Pi, ThingSpeak, Twilio API</p>
+            </div>
+          </div>
+
+          <div class="timeline-item right">
+            <div class="card">
+              <h3>Bio-Responsive AI Sentinel</h3>
+              <p>
+                Built a wildlife and fire surveillance system using thermal and normal cameras with LoRa communication.
+                Integrated AI-based animal detection and real-time alerting through a web dashboard.
+              </p>
+              <p><strong>Tech Stack:</strong> Python, YOLOv8, Flask, Raspberry Pi, LoRa, AWS</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    © <span id="curYear"></span> Muchumari Veera Vasanth Reddy
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
